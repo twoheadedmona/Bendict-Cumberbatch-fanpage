@@ -1,0 +1,180 @@
+body{
+	margin: 0 auto;
+	width: 1100px;
+	text-align:center;
+	background-image:url("../images/sherlock-wallpaper-pattern-web.jpg");
+	height: 100%;
+	
+}
+
+@font-face{
+	font-family:SHERLOCKED;
+	src:url(../fonts/I%20AM%20SHERLOCKED.ttf);
+	font-weight:bold;
+}
+
+#wrapper{
+	background-color: black;
+    margin: 0 auto;
+    min-height: 100%;
+    overflow: auto;
+    color: #FC0;
+
+}
+
+#header{
+	font-family:SHERLOCKED;
+	font-weight: bold;
+	font-size: 200%;
+	color: #FC0;
+	text-align: center;
+}
+
+.horizontal{
+	height:63px;
+	margin:0 auto;
+	padding-left: 0;
+}
+
+.horizontal ul{
+	list-style-type:none;
+	margin-left: 0;
+	padding:0;
+}
+
+.horizontal li{
+	float:left;
+	margin:0 auto;
+}
+
+.horizontal a{
+	display:block;
+	width:200px;
+	margin:0 auto;
+}
+
+.horizontal a:link{
+	font-family:SHERLOCKED;
+	font-weight:bold;
+	color:#000;
+	background-color:#FC0;
+	text-align:center;
+	padding:4px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+.horizontal a:visited{
+	color:#000;	
+}
+
+.horizontal a:hover,.horizontal a:active{
+	background-color:#000;
+	color:#FC0;
+}
+
+#buttons {
+    text-align: center;
+}
+
+#buttons ul {
+    display: inline-block;
+	margin 0 auto;
+	padding:0 auto;
+}
+
+#content{
+	color:#FC0;	
+	font-family:calibri; 
+	font-size:24px;
+	padding-bottom: 30px;
+
+
+}
+#text{
+	float: left;
+	font-size: 18px;
+	text-align: left;
+	padding-left: 10%;	
+	padding-top: 5%;
+	width: 300px;
+}
+
+#pic{
+	float: right;
+	padding-right: 10%;
+	padding-top: 5%;
+}
+#content a:link{
+	color:#FC6;
+}
+
+#content a:visited{
+	color:#FF0;
+}
+#footer{ 
+	background-color:#FC0;
+	clear: both;
+	color: black;
+	font-family: SHERLOCKED;
+	font-weight: bold;
+	font-size: 100%; 
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#gallery{
+	padding:5%;
+}
+
+#gallert #single_image{
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-right:20px;
+	margin-left:20px;
+}
+
+
+#tabela{
+	position:relative;
+	margin:0 auto;	
+	margin-top:30px;
+	color: white;
+	border-collapse: collapse;
+	height:400px;
+}
+#tabela a:link{
+	color:#FC0;
+	text-decoration:none;
+}
+#tabela a:visited{
+	color:#FF0;
+	
+}
+div p{
+	color:#FC0;
+	padding-left:30px;
+	text-align:left;
+	font-size:18px;
+	font-family:calibri;
+}
+
+#contact-form{
+	padding-top:20px;	
+	padding-left: 5%;
+	clear: both;
+	text-align: left;
+
+}
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    width:60%;
+    box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+    border:1px solid #CCC;
+    background:#FFF;
+    margin:0 0 5px;
+    padding:10px;
+    border-radius:5px;
+	
+}
